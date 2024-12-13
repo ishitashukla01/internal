@@ -1,0 +1,109 @@
+/* Reset default margin and padding, set box-sizing, and font family */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Open Sans", sans-serif;
+}
+
+/* Carousel item image styling */
+.carousel-item img {
+    width: 100%;
+    height: 93vh; /* Full viewport height for the carousel */
+    object-fit: cover;
+}
+
+/* About Us section */
+.About_Us {
+    min-width: 90%;
+    max-height: 700px;
+}
+
+/* Services row adjustments */
+.services .row > * {
+    padding-right: 0;
+    padding-left: 0;
+}
+
+/* Row with flexbox behavior */
+.row.my-5 {
+    display: flex; /* Flexbox behavior */
+    flex-wrap: wrap; /* Allow wrapping for responsive design */
+}
+
+/* Offer section background color */
+.offer_style {
+    background-color: #f5f5f5; /* Choose your desired background color */
+}
+
+/* Juhu Beach image */
+.Juhuimg {
+    height: 20rem;
+    object-fit: cover; /* Ensure the image fits nicely */
+}
+
+/* Footer styles */
+.footer {
+    background-color: #808080;
+    text-align: center;
+    margin-bottom: -3rem;
+    color: white;
+    padding: 1rem 0;
+}
+
+.footer2 {
+    background-color: #808080;
+    text-align: center;
+    margin-top: 13rem;
+    color: white;
+    padding: 1rem 0;
+}
+
+/* Card image wrapper for centering */
+.card-img-wrapper {
+    display: flex;
+    justify-content: center;
+}
+
+.medium-img {
+    max-height: 500px; /* Medium size adjustment */
+    width: auto;
+    object-fit: cover;
+}
+
+/* Responsive CSS */
+
+/* Small devices (landscape phones, 576px and up) */
+@media (min-width: 576px) {
+    .Juhuimg {
+        height: 18rem; /* Adjust image height for smaller devices */
+    }
+}
+
+/* Medium devices (tablets, 768px and up) */
+@media (min-width: 768px) {
+    .Juhuimg {
+        height: 22rem; /* Adjust image height for medium devices */
+    }
+}
+
+/* Large devices (desktops, 992px and up) */
+@media (min-width: 992px) {
+    .Juhuimg {
+        height: 25rem; /* Adjust image height for large devices */
+    }
+}
+
+/* X-Large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) {
+    .Juhuimg {
+        height: 28rem; /* Adjust image height for extra-large devices */
+    }
+}
+
+/* XX-Large devices (larger desktops, 1400px and up) */
+@media (min-width: 1400px) {
+    .Juhuimg {
+        height: 30rem; /* Adjust image height for ultra-large devices */
+    }
+}
